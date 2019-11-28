@@ -1,5 +1,5 @@
 {
-    "name": "Bakrpx/belongs-to-many-field",
+    "name": "bakrpx/belongs-to-many-field",
     "description": "belongsToMany nova representation in field forked from Bakrpx/belongs-to-many-field to fix some issues.",
     "keywords": [
         "laravel",
