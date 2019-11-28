@@ -1,5 +1,5 @@
 <?php
-namespace Benjacho\BelongsToManyField\Rules;
+namespace Bakrpx\BelongsToManyField\Rules;
 use Illuminate\Contracts\Validation\Rule;
 class ArrayRules implements Rule
 {

@@ -1,6 +1,6 @@
 {
-    "name": "benjacho/belongs-to-many-field",
-    "description": "belongsToMany nova representation in field.",
+    "name": "Bakrpx/belongs-to-many-field",
+    "description": "belongsToMany nova representation in field forked from Bakrpx/belongs-to-many-field to fix some issues.",
     "keywords": [
         "laravel",
         "nova",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Benjacho\\BelongsToManyField\\": "src/"
+            "Bakrpx\\BelongsToManyField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Benjacho\\BelongsToManyField\\FieldServiceProvider"
+                "Bakrpx\\BelongsToManyField\\FieldServiceProvider"
             ]
         }
     },

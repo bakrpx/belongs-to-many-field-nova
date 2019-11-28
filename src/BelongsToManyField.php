@@ -1,10 +1,10 @@
 <?php
 
-namespace Benjacho\BelongsToManyField;
+namespace Bakrpx\BelongsToManyField;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Benjacho\BelongsToManyField\Rules\ArrayRules;
+use Bakrpx\BelongsToManyField\Rules\ArrayRules;
 
 class BelongsToManyField extends Field
 {

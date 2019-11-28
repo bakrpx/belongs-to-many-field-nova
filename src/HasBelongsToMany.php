@@ -6,7 +6,7 @@
  * Time: 5:10 PM
  */
 
-namespace Benjacho\BelongsToManyField;
+namespace Bakrpx\BelongsToManyField;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

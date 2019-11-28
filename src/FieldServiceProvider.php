@@ -1,6 +1,6 @@
 <?php
 
-namespace Benjacho\BelongsToManyField;
+namespace Bakrpx\BelongsToManyField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

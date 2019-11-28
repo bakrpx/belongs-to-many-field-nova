@@ -7,7 +7,7 @@ Belongs To Many field to represent many to many relationship in field. This Fiel
 
 ### Installation
 ```bash
-composer require benjacho/belongs-to-many-field
+composer require Bakrpx/belongs-to-many-field
 ```
 
 ## Deprecation
@@ -25,7 +25,7 @@ In the resource you need to pass:
 - It is available in index, detail and forms!
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Bakrpx\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     BelongsToManyField::make('Role Label', 'roles', 'App\Nova\Role'),
@@ -43,7 +43,7 @@ IMPORTANT
 
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Bakrpx\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     BelongsToManyField::make('Role Label', 'roles', 'App\Nova\Role')->optionsLabel('title'),
@@ -53,7 +53,7 @@ public function fields(Request $request){
 - Method isAction(), this method is when you need this field in actions, this puts height of field in 350px, and converts in action.
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Bakrpx\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     BelongsToManyField::make('Role Label', 'roles', 'App\Nova\Role')->isAction(),
@@ -89,14 +89,14 @@ public function handle(ActionFields $fields, Collection $models)
 This package implement all Laravel Validations, you need to pass the rules in rules method, rules are listed on laravel validations rules for arrays*.
 
 ```php
-use Benjacho\BelongsToManyField\BelongsToManyField;
+use Bakrpx\BelongsToManyField\BelongsToManyField;
 
 public function fields(Request $request){
     BelongsToManyField::make('Role Label', 'roles', 'App\Nova\Role')->relationModel(\App\User::class)->rules('required', 'min:1', 'max:5', 'size:3' new CustomRule),
 }
 ```
 
-![image](https://raw.githubusercontent.com/Benjacho/belongs-to-many-field-nova/master/validation.png)
+![image](https://raw.githubusercontent.com/Bakrpx/belongs-to-many-field-nova/master/validation.png)
 
 For translations of this validations, use normal laravel validations translations.
 
